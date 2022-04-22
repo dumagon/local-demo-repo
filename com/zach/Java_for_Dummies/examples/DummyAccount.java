@@ -1,3 +1,6 @@
+package com.zach.Java_for_Dummies.examples;
+
+
 class Account {
 private String name;
 private int balance;

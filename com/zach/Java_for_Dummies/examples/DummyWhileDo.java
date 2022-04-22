@@ -1,3 +1,5 @@
+package com.zach.Java_for_Dummies.examples;
+
 import java.util.Random;
 import java.util.Scanner;
 class DummyWhileDo{

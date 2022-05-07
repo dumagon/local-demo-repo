@@ -1,12 +1,10 @@
 C stands on its own 
 
-fooooooo
 
 for the A commit 
 
 
-fiiiiiiiiiii
-ddddddddddd
+for the D commit as related to D.txt 
 
 
 

@@ -2,10 +2,11 @@
 
 this line will be deleted in master
 
-
+ggkddkkggjgjg
 
 this line stays
 
+<<<<<<< HEAD
 c1 
 
 <<<<<<< HEAD
@@ -16,3 +17,5 @@ c2
 c3
 >>>>>>> ce24314 (c3)
 
+=======
+>>>>>>> parent of b0fab4c (c1)

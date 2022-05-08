@@ -8,7 +8,11 @@ this line stays
 
 c1 
 
+<<<<<<< HEAD
 c2 
 
 
+=======
+c3
+>>>>>>> ce24314 (c3)
 

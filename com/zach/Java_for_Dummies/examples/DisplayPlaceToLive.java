@@ -13,6 +13,14 @@ public class DisplayPlaceToLive{
 
     Apartment apartment =new Apartment();
     House house = new House();
+    ApartmentWithFee apartmentWithFee=new ApartmentWithFee();
+
+    apartmentWithFee.setQuarterFee(2000);
+    apartmentWithFee.setNumberOfBedrooms(4);
+    apartmentWithFee.setSquareMeters(45.3D);
+
+    System.out.println(apartmentWithFee.calcMonthlyRentPerBedroom(apartmentWithFee.getNumberOfBedrooms(),10000));
+    System.out.println(apartmentWithFee.calcMonthlyRentPerSquareMeter(apartmentWithFee.getSquareMeters(),1000));
 
     apartment.setNumberOfBedrooms(4);
     apartment.setSquareMeters(45.3D);

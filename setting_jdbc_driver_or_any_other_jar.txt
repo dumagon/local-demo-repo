@@ -1,0 +1,25 @@
+
+
+POWERSHELL :
+
+that's how we add external jars (C:\Apache\db-derby-10.16.1.1-bin\lib\derby.jar) to run CreateTable.java 
+
+PS E:\Workspace\localrepo\com\zach\Java_for_Dummies\databasics> $env:CLASSPATH= "C:\Apache\db-derby-10.16.1.1-bin\lib\derby.jar;.;"+$env:CLASSPATH
+
+CMD :
+
+E:\Workspace\localrepo\com\zach\Java_for_Dummies\databasics>java -cp C:\Apache\db-derby-10.16.1.1-bin\lib\derby.jar;.  CreateTable
+
+
+WARNING ! :
+
+these parameters above are case / space sensitive  
+ex.
+java -cp C:\Apache\db-derby-10.16.1.1-bin\lib\derby.jar ;.  CreateTable
+
+or 
+
+java -cp C:\Apache\db-derby-10.16.1.1-bin\lib\derby.jar; .  CreateTable
+
+won't work (..jar ;. , ..jar; . = wrong , ...jar;. = correct )  etc.
+
